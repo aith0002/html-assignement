@@ -1,50 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Personal Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Home Page</title>
 </head>
+
 <body>
+  <header>
+    <h1>Welcome to My Page</h1>
 
-    <!-- Site Header -->
-    <header>
-        <h1>Mazigh Ait Hellal</h1>
-    </header>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="notes.html">HTML Notes</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- About Me Article -->
-    <article>
-        <h2>About Me</h2>
+  <main>
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
 
-        <p>
-            I am a motivated student currently studying <em>Interactive Media Design</em>. 
-            I enjoy learning how websites are built and how technology can be used to solve real-world problems. 
-            My goal is to improve my technical skills while also developing creativity. 
-            I believe consistency is the key to success, and I always try to improve myself every day.
-        </p>
+      <figure>
+        <img src="images/image.jpeg" alt="Photo of me" width="220">
+        <figcaption>This is me.</figcaption>
+      </figure>
 
-        <p>
-            Outside of my studies, I like exploring new ideas and learning about different cultures. 
-            I am interested in design, technology, and personal development. 
-            I strongly believe that small daily efforts can lead to big achievements over time. 
-            My ambition is to build a career where creativity and innovation work together.
-        </p>
-    </article>
-
-    <!-- Motivational Quote -->
-    <section>
-        <h2>Motivational Quote</h2>
-        <p>
-            "Success is built one step at a time."
-        </p>
-        <p>
-            <abbr title="Self-written quote">SWQ</abbr> — Written by Mazigh Ait Hellal
-        </p>
+      <p>
+        Hi! My name is mazigh. This page shows a bit about me .
+      </p>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Mazigh Ait Hellal. All rights reserved.</p>
-    </footer>
+    <section aria-labelledby="hobbies-heading">
+      <h2 id="hobbies-heading">My Hobbies</h2>
+      <ul>
+        <li>Working out / gym</li>
+        <li>Gaming</li>
+      </ul>
+    </section>
+  </main>
 
+  <footer>
+    <p>&copy; 2026 Mazigh</p>
+  </footer>
 </body>
 </html>
